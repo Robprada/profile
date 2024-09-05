@@ -1,0 +1,148 @@
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  color: #45474B;
+  padding: 1px;
+  background-color: #F5F7F8;
+  text-align: justify;
+  border: 1px solid rgb(237, 234, 234);
+  border-radius: 10px;
+}
+
+h1, h2 {
+  font-family: 'Space Mono', monospace;
+  color: #379777;
+  padding: 0px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+h3 {
+  font-family: 'Space Mono', monospace;
+  color: #379777;
+  padding: 0px;
+  margin-block-start: 0em;
+  margin-block-end: 2em;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  padding: 10px 15px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 5px;
+}
+
+a:hover {
+  background-color: #4c964a;
+}
+
+.card {
+  background-color: white;
+  padding: 35px;
+  width: 550px;
+  margin: 25px auto;
+  border-radius: 10px;
+  border: 1px solid #EAEAEA;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  background-color: #F3FF90;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 2em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: justify;
+}
+
+.img-circle {
+  border-radius: 50%;
+  margin: 0 auto;
+  padding: 15px;
+  background: rgb(236, 241, 206);
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+  border: 1px solid #F7F7F7;
+}
+
+/* Media queries para diseño receptivo */
+
+@media (max-width: 960px) {
+  .card {
+    width: 80%;
+    padding: 20px;
+  }
+
+  li {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 720px) {
+  .card {
+    width: 90%;
+    padding: 15px;
+  }
+
+  li {
+    padding: 6px 10px;
+    font-size: 13px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 540px) {
+  .card {
+    width: 95%;
+    padding: 10px;
+  }
+
+  li {
+    display: block;
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 1.2em;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .img-circle {
+    width: 150px;
+    height: 150px;
+  }
+}
